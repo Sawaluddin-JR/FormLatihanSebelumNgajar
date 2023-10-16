@@ -13,8 +13,6 @@ namespace FormLatihanSebelumNgajar
         double temp;
         char oper;
         bool oper1;
-
-
         private void bersih()
         {
             hasiltxt.Text = "0";
@@ -127,6 +125,11 @@ namespace FormLatihanSebelumNgajar
             }
             oper = Convert.ToChar(op.Text);
             fokus();
+        }
+
+        private void btnkoma_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

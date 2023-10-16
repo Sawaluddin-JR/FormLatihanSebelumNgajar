@@ -287,6 +287,7 @@
             this.btnkoma.TabIndex = 18;
             this.btnkoma.Text = ",";
             this.btnkoma.UseVisualStyleBackColor = true;
+            this.btnkoma.Click += new System.EventHandler(this.btnkoma_Click);
             // 
             // Form3
             // 
