@@ -42,6 +42,7 @@ namespace FormLatihanSebelumNgajar
             /*Form2 form2 = new Form2();
             form2.form1 = this;
             form2.ShowDialog();*/
+            button1.Text = "<- UP";
 
             label1.Text = txtName.Text;
         }
