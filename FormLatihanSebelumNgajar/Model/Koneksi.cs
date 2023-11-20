@@ -14,7 +14,7 @@ namespace FormLatihanSebelumNgajar.Model
         public MySqlConnection GetConnection()
         {
             MySqlConnection conn = new MySqlConnection();
-            conn.ConnectionString = "server=localhost;user=root;database=profil";
+            conn.ConnectionString = "server=localhost;user=root;database=kuis14";
             try
             {
                 conn.Open();
